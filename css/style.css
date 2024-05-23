@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+#country-details {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  /* border: 2px solid indigo; */
+  text-align: center;
+
+}
+
+#country {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.country {
+  border: 2px solid skyblue;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  background-color: skyblue;
+  border: none;
+  border-radius: 5px;
+  color: blue;
+  font-size: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  transition: 0.3s linear;
+  font-size: 17px;
+}
+
+img {
+  width: 320px;
+  height: 168px;
+}
+
+.navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav-list li {
+  float: left;
+}
+
+.nav-list li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-list li a:hover {
+  background-color: #111;
+}
